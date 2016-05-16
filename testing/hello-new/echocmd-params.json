@@ -1,0 +1,5 @@
+{
+"cwl:tool"    : "echocmd-params.cwl",
+"echo-in-message" : "Hello, CWL !\nHello World !",
+"echo-in-outputfile"  :  "useroutput.txt"
+}

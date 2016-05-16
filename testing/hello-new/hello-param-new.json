@@ -1,0 +1,6 @@
+{
+"cwl:tool"    : "hello-param-new.cwl#main",
+"usermessage" : "Hello, CWL !\nHello World !",
+"useroutput"  :  "useroutput.txt"
+}
+
