@@ -6,10 +6,10 @@
 # Description:		Basic cwl-runner image
 # Websites:		http://www.commonwl.org/; https://github.com/common-workflow-language/common-workflow-language
 # Base Image:		ubuntu:14.04
-# Build Cmd:		docker build --rm --no-cache -t chrishah/cwl-runner:v1.0.0 .
-# Pull Cmd:		docker pull chrishah/cwl-runner:v1.0.0
-# Run Cmd:		docker run --privileged --rm -it -v $(pwd):/home chrishah/cwl-runner:v1.0.0 /bin/bash #to enter the container
-# Run Cmd:		docker run --privileged --rm -it -v $(pwd):/home chrishah/cwl-runner:v1.0.0 cwl-runner #run as executable
+# Build Cmd:		docker build --rm --no-cache -t chrishah/testing_cwl:v1.0.0 .
+# Pull Cmd:		docker pull chrishah/testing_cwl:v1.0.0
+# Run Cmd:		docker run --privileged --rm -it -v $(pwd):/home chrishah/testing_cwl:v1.0.0 /bin/bash #to enter the container
+# Run Cmd:		docker run --privileged --rm -it -v $(pwd):/home chrishah/testing_cwl:v1.0.0 cwl-runner #run as executable
 #
 #####################################
 
