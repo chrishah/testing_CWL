@@ -1,0 +1,13 @@
+{
+	"bait-fasta": {
+		"class": "File",
+		"path": "test-files/Salpinus-mt-genome-NC_000861.fasta"
+	},
+	"infile-pe-interleaved": {
+		"class": "File",
+		"path": "test-files/Tthymallus-150bp-300sd50-interleaved.fastq.gz"
+	},
+	"kmer-size": 31,
+	"threads": 4,
+	"outfile": "test-files/mirabait-test-result.fastq"
+}

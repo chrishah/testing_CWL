@@ -39,5 +39,12 @@ RUN pip install cwl-runner==1.0.0
 
 WORKDIR /home
 RUN chmod -R a+rw /home
+VOLUME /home
+
+#install and start docker
+RUN wget -qO- https://get.docker.com/ | sh 
+#CMD ["service", "docker", "start"]
+#RUNP service docker start
 
 #ENTRYPOINT ["cwl-runner"]
+#ENTRYPOINT ["service", "docker", "start"]

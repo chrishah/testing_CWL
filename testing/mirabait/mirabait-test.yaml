@@ -1,0 +1,14 @@
+- args: [
+    "mirabait",
+    "-b",
+    "./test-files/Salpinus-mt-genome-NC_000861.fasta",
+    "-k",
+    "31",
+    "-P",
+    "./test-files/Tthymallus-150bp-300sd50-interleaved.fastq.gz",
+    "-o",
+    "./test-files/mirabait-test-result.fastq",
+  ]
+  job:  mirabait-job.json
+  tool: mirabait.cwl
+  doc: General test of command line generation
